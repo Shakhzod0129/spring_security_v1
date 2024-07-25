@@ -7,9 +7,7 @@ import com.example.spring_security_custom.dto.RegisterDTO;
 import com.example.spring_security_custom.dto.UserDTO;
 import com.example.spring_security_custom.service.AuthService;
 import jakarta.validation.Valid;
-import lombok.Getter;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
